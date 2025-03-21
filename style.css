@@ -11,31 +11,49 @@ body {
 }
 
 .header {
-    position: fixed;
-    top: 0;
-    left: 0;
     width: 100%;
     background-color: rgba(8, 27, 41, 0.8);
-    padding: 20px;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    z-index: 100;
-    flex-wrap: wrap;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+@media screen and (min-width: 768px) {
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align: initial;
+    }
+
+}
+
+@media screen and (min-width: 1024px) {
+    .header {
+        position: fixed;
+        top: 0;
+        left: 0;
+        z-index: 100;
+    }
+
 }
 
 .logo {
-    font-size: 2.2em;
+    font-size: 2.2rem;
     text-decoration: none;
     font-weight: bold;
     color: white;
-    margin-left: 10px;
 }
 
 .navbar {
     display: flex;
     flex-direction: column;
-    align-items: flex-end;
+}
+
+@media screen and (min-width: 768px) {
+    .navbar {
+        align-items: flex-end;
+    }
 }
 
 .navbar a {
@@ -43,13 +61,13 @@ body {
     text-decoration: none;
     font-weight: 500;
     color: white;
-    margin-right: 15px;
+    margin-right: 1rem;
     display: inline-block;
 }
 
 .fa-solid {
     color: #ededed;
-    margin: 5px;
+    margin: 0.3rem;
 }
 
 .home {
@@ -60,7 +78,7 @@ body {
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    gap: 40px;
+    gap: 2.5rem;
 }
 
 .home-content {
@@ -71,7 +89,7 @@ body {
     max-width: 100%;
     height: auto;
     border-radius: 0.5rem;
-    margin-top: 20px;
+    margin-top: 1.25rem;
 }
 
 .home-img img {
@@ -102,8 +120,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    gap: 15px;
-    margin-top: 20px;
+    gap: 1rem;
+    margin-top: 1.25rem;
 }
 
 #btn-box a {
@@ -112,10 +130,10 @@ body {
     padding: 8px;
     margin: 0;
     width: 200px;
-    font-size: 16px;
+    font-size: 1rem;
     height: 100%;
     border: 2px solid #00abf0;
-    border-radius: 8px;
+    border-radius: 0.5rem;
     background: #00abf0;
     text-decoration: none;
     color: #ededed;
@@ -142,11 +160,11 @@ body {
 
 #site-web {
     text-align: center;
-    padding: 20px 4%;
+    padding: 1.25rem 4%;
 }
 
 #site-web h1 {
-    margin: 20px 0;
+    margin: 1.25rem 0;
     padding-top: 100px;
     text-transform: uppercase;
     color: #ededed;
@@ -358,8 +376,8 @@ hr {
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
-        padding: 0;
-        margin-top: 100px;
+        padding-top: 50;
+
     }
 
     .home-content {
@@ -369,7 +387,7 @@ hr {
 
     .home-img {
         flex-basis: 45%;
-        max-width: 40%;
+        max-width: 50%;
         margin-top: 0;
     }
 
