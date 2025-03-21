@@ -1,0 +1,636 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,700;1,500&family=Volkhov&display=swap');
+
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+li {
+    list-style-type: none;
+}
+
+li a {
+    list-style-type: none;
+    color: black;
+}
+
+nav {
+    overflow: hidden;
+    background-color: white;
+    position: fixed;
+    top: 0;
+    width: 100%
+}
+
+header li {
+    float: right;
+    font-size: 1.2em;
+    z-index: 5;
+}
+
+header li a {
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    padding: 18px 16px
+}
+
+
+.logo img {
+    float: left;
+
+}
+
+
+
+/****************************************** SECTION 1  *******************************/
+
+
+
+
+
+#section1 {
+    background: url(images/illustration_principale.jpg) no-repeat;
+    background-size: cover;
+    height: 850px;
+}
+
+.my-button {
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 8px;
+    margin: 5%;
+    background-color: #f1a501
+}
+
+#section1 button:hover {
+    transform: scale(1.2);
+}
+
+
+#section1 h1 {
+    font-family: "poppins", serif;
+    font-size: 1.5em;
+    padding: 5%;
+    padding-top: 150px;
+    padding-bottom: 40px;
+    line-height: 15%;
+    color: #df6951;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+
+#section1 h2 {
+    color: white;
+    font-size: 5em;
+    margin: 0;
+    font-family: "Volkhov", serif;
+    padding-left: 5%;
+    float: left;
+}
+
+
+#section1 p {
+    color: #bfc0cd;
+    font-size: 16px;
+    max-width: 460px;
+    padding-left: 5%;
+    font-family: "Poppins", serif
+}
+
+
+
+
+/****************************************** SECTION 2  *******************************/
+
+
+
+
+#section2 h1 {
+    color: grey;
+    font-family: "Poppins", serif;
+    font-weight: bold;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+#section2 h2 {
+    color: #14183e;
+    font-size: 50px;
+    margin: 0;
+    margin-top: 10px;
+    font-family: "Volkhov", "serif";
+    text-align: center;
+
+}
+
+
+#plats {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+#plats img {
+    border-top-left-radius: 24px;
+    border-top-right-radius: 24px;
+}
+
+.Boulettes h3 {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    text-align: center;
+    line-height: 28px;
+    font-size: 18px;
+    padding: 20px;
+    color: grey;
+}
+
+.Nouilles h3 {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    text-align: center;
+    line-height: 28px;
+    font-size: 18px;
+    padding: 20px;
+    color: grey;
+}
+
+.Echine h3 {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    text-align: center;
+    line-height: 28px;
+    font-size: 18px;
+    padding: 20px;
+    color: grey;
+}
+
+#Sushi {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+#Sushi h4 {
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    color: #14183e;
+    font-weight: 600;
+    text-align: center;
+}
+
+#Sushi h5 {
+    font-family: "Poppins", serif;
+    font-size: 16px;
+    color: grey;
+    font-weight: 500;
+    text-align: center;
+}
+
+#plats .Boulettes {
+    width: 320px;
+    margin: 0px;
+    background-color: white;
+    box-shadow: 0px 4px 32px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+
+#plats .Nouilles {
+    width: 320px;
+    margin: 0px;
+    background-color: white;
+    box-shadow: 0px 4px 32px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+
+#plats .Echine {
+    width: 320px;
+    margin: 0px;
+    background-color: white;
+    box-shadow: 0px 4px 32px 5px rgba(0, 0, 0, 0.05);
+    border-radius: 24px;
+}
+
+
+.my-button {
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 8px;
+    background-color: #f1a501;
+    box-shadow: 0px 20px 35px 5px rgba(241, 165, 1 0.15);
+}
+
+#section2 button:hover {
+    transform: scale(1.2);
+}
+
+.bouton2 {
+    display: flex;
+    justify-content: center;
+    padding: 15px 32px;
+}
+
+
+
+
+/****************************************** SECTION 3  *******************************/
+
+
+
+
+#section3 {
+    background: url(images/illustration_chef.jpg) no-repeat;
+    background-size: cover;
+    height: 1000px;
+    padding-bottom: 400px;
+    position: relative;
+    z-index: 0;
+}
+
+.conteneurvideo {
+    display: flex;
+    position: relative;
+    border-radius: 50px;
+    width: 350px;
+    height: 200px;
+    left: 7%;
+    top: 7%;
+}
+
+#section3 h1 {
+    color: white;
+    font-size: 5em;
+    font-family: "Volkhov", serif;
+    margin-left: 7%;
+
+}
+
+#section3 p {
+    color: white;
+    font-size: 16px;
+    font-family: "Poppins", serif;
+    text-align: left;
+    margin-left: 7%;
+}
+
+
+/************************** IMAGES AU MILIEU*************************/
+
+
+.image-restau {
+    position: absolute;
+    bottom: -300px;
+    z-index: 1;
+}
+
+.image-restau img {
+    height: auto;
+    width: 50%;
+    z-index: 1;
+}
+
+
+
+/****************************************** SECTION 4  *******************************/
+
+#section4 {
+    background: url(images/illustration_commander.jpg) no-repeat;
+    background-size: cover;
+    height: 1100px;
+    padding-top: 400px;
+    z-index: 1;
+}
+
+#section4 h1 {
+    color: grey;
+    text-transform: uppercase;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    margin-left: 7%;
+    display: block;
+    margin-block-start: 1.33em;
+}
+
+
+#section4 h2 {
+    margin-left: 7%;
+    padding-bottom: 50px;
+}
+
+
+.rouge {
+    color: orangered;
+    font-size: 50px;
+    font-family: "Volkhov", serif;
+}
+
+
+.black {
+    color: #14183e;
+    font-size: 50px;
+    font-family: "Volkhov", serif;
+}
+
+#commander {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-left: 7%;
+}
+
+.Uber img {
+    width: 60px;
+    height: 60px;
+}
+
+.Jadoo img {
+    width: 60px;
+    height: 60px;
+}
+
+.Livraison img {
+    width: 60px;
+    height: 60px;
+}
+
+#section4 h4 {
+    font-family: "Poppins", serif;
+    color: black;
+    font-weight: bold;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+#section4 h5 {
+    font-family: "Poppins";
+    font-weight: 500;
+    color: grey;
+    font-size: 14px;
+    margin-top: -20px;
+}
+
+#section4 button:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+
+/****************************************** SECTION 5  *******************************/
+
+
+#section5 h1 {
+    color: grey;
+    text-transform: uppercase;
+    font-family: "Poppins", serif;
+    font-size: 20px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+
+#section5 h2 {
+    color: #14183e;
+    font-family: "Volkhov", serif;
+    font-size: 50px;
+    text-align: center;
+}
+
+
+
+#section5 h3 {
+    color: black;
+    font-family: "Poppins", serif;
+    font-size: 18px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+#section5 h4 {
+    color: #8d8d8d;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    margin-bottom: 10px;
+    font-weight: 400;
+    text-align: center;
+}
+
+
+#formulairegauche {
+    display: table;
+    width: 100%;
+    background-color: white;
+    box-shadow: 0px 4px 61px 0px rgba(0, 0, 0, 0.1);
+    border-radius: 30px;
+    max-width: 1020px;
+    margin: auto;
+}
+
+.formulairecontact {
+    display: table-cell;
+    justify-content: center;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    vertical-align: top;
+}
+
+.formulairecontact input {
+    padding: 0 0 5px;
+    color: #989898;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid #e2e4e5;
+    outline: 0;
+    font-size: 13px;
+    transition: transform 0.2s;
+    margin: 5px 5px 12px;
+    margin-left: 15%;
+}
+
+.formulairecontact label {
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    margin: 5px 5px 12px;
+    margin-left: 15%;
+}
+
+#formulairedroite {
+    display: table-cell;
+    width: 50%;
+    height: 100%;
+    vertical-align: top;
+    text-align: right;
+}
+
+.formdedroite img {
+    height: 100%;
+    width: 100%;
+    border-top-right-radius: 30px;
+    border-bottom-right-radius: 30px;
+}
+
+form {
+    padding-bottom: 100px;
+}
+
+.bouton-envoyer {
+    color: white;
+    text-align: center;
+    cursor: pointer;
+    border-radius: 5px;
+    background-color: #007aff;
+    box-shadow: 0px 20px 35px 5px rgba(241, 165, 1 0.15);
+    font: 18px Arial, Helvetica, sans-serif;
+    padding: 15px 20px;
+    border: none;
+}
+
+.boutonbleu {
+    display: flex;
+    justify-content: center;
+    padding: 30px 50px;
+}
+
+.boutonbleu img {
+    padding: 0 9px;
+    margin-left: 1px;
+}
+
+#section5 button:hover {
+    transform: scale(1.2);
+}
+
+/***************************************** FOOTER ********************************/
+
+footer {
+    background-color: #f3f3f3;
+    padding: 70px 8% 20px;
+    display: block;
+    unicode-bidi: isolate;
+}
+
+.conteneur-elements {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    align-items: center;
+}
+
+footer .footer-part {
+    display: inline-block;
+    vertical-align: top;
+    margin-bottom: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 0 20px 0 20px;
+}
+
+
+#footer-logo img {
+    height: 50px;
+    max-height: 100%;
+}
+
+.textegauche {
+    color: #5e6282;
+    font-size: 18px;
+    line-height: 147.5%;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    text-align: left;
+}
+
+footer p {
+    font-size: 18px;
+    line-height: 147.5%;
+}
+
+footer div {
+    display: inline-block;
+    vertical-align: top;
+}
+
+#footer-plan .titre {
+    margin: 0px 40px 20px;
+}
+
+footer div {
+    margin: 0 0px 0;
+}
+
+.titre {
+    font-weight: bold;
+    font-size: 21px;
+    font-family: "Poppins", serif;
+}
+
+.texte {
+    text-align: left;
+    color: #5e6282;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+}
+
+.plan-restaurant a {
+    text-align: left;
+    color: #5e6282;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    margin: 0px 40px 20px;
+}
+
+.plan-contact a {
+    text-align: left;
+    color: #5e6282;
+    font-family: "Poppins", serif;
+    font-weight: 500;
+    margin: 0px 40px 20px;
+}
+
+.copyright {
+    text-align: center;
+    color: #5e6282;
+    font-family: "Poppins", serif;
+    font-size: 14px;
+    font-weight: 500;
+}
+
+.download {
+    background-color: black;
+    padding: 5px 10px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+span {
+    color: white;
+    font-size: 10px;
+    vertical-align: middle;
+}

@@ -1,0 +1,83 @@
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 1rem;
+	line-height: 1.5;
+	color: black;
+}
+
+h1 {
+	font-weight: normal;
+}
+
+main {
+	width: 90%;
+	max-width: 980px;
+	margin: 0 auto;
+	text-align: center;
+}
+
+#horloge {
+	background-color: #BBB;
+	width: 400px;
+	height: 400px;
+	margin: 0 auto;
+	padding: 20px;
+	box-sizing: border-box;
+	border-radius: 15px;
+}
+
+#cadran {
+	position: relative;
+	background: white url("img/ios_clock.svg") no-repeat center;
+	background-size: 90%;
+	width: 360px;
+	height: 360px;
+	border-radius: 50%;
+}
+
+#cadran .centre {
+	position: absolute;
+	left: 170px;
+	top: 170px;
+	background-color: black;
+	width: 20px;
+	height: 20px;
+	border-radius: 50%;
+}
+
+.aiguille {
+	position: absolute;
+	background-color: black;
+}
+
+.heure {
+	width: 2.5%;
+	height: 25%;
+	left: 48.75%;
+	top: 25%;
+	z-index: 1;
+	transform-origin: 50% 100%;
+}
+
+.minute {
+	width: 2%;
+	height: 35%;
+	left: 49%;
+	top: 14%;
+	z-index: 2;
+	transform-origin: 50% 100%;
+}
+
+.seconde {
+	background-color: red;
+	width: 1%;
+	height: 45%;
+	left: 49.5%;
+	top: 14%;
+	z-index: 3;
+	transform-origin: 50% 80%;
+}
+
+footer {
+	text-align: center;
+}
