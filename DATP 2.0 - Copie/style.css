@@ -1,0 +1,960 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+.container {
+  width: 90%;
+}
+
+/****************** NAV ******************/
+
+nav {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  background-color: #f0e4d9;
+}
+
+nav a {
+  text-decoration: none;
+  color: #3e332e;
+  font-size: 1.8rem;
+  font-family: "DM Serif Display";
+}
+
+nav a:hover {
+  border-bottom: 0.15rem solid #3e332e;
+}
+
+nav li {
+  list-style: none;
+  display: inline-block;
+
+  margin: 2rem 1rem 1rem 1rem;
+}
+
+/******************* ACCUEIL ***************/
+
+#accueil {
+  background-color: #f0e4d9;
+  width: 100%;
+  height: 45vh;
+}
+
+#accueil h1 {
+  color: #3e332e;
+  padding: 3rem 0 1rem 0;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "DM Serif Display";
+}
+
+#accueil p {
+  text-align: center;
+  margin: 1.4rem 20rem;
+  font-family: "League Spartan";
+  color: #582d1d;
+  font-size: 1.3rem;
+}
+
+#accueil button {
+  border-radius: 1rem;
+  padding: 0.6rem;
+  background-color: #582d1d;
+  border: 0;
+  width: 11rem;
+  display: block;
+  /* Permet d'utiliser margin auto */
+  margin: 1rem auto;
+  /* Centre horizontalement */
+  cursor: pointer;
+}
+
+button:hover {
+  transform: scale(1.1);
+  transition: transform 0.3s ease;
+}
+
+#accueil a {
+  text-decoration: none;
+  color: #f0e4d9;
+  font-family: "League Spartan";
+  font-size: 1.2rem;
+}
+
+img:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease;
+}
+
+/************************* SERVICES **********************/
+
+/******************* INTERIEURE ***************************/
+#interieur h1 {
+  color: #3e332e;
+  padding: 3rem 0 1rem 0;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "DM Serif Display";
+}
+
+.peinture-interieure {
+  display: flex;
+  align-items: center;
+}
+
+.peinture-interieure img {
+  width: 46%;
+  margin: 3rem;
+  margin-left: 7rem;
+  border-radius: 0.5rem;
+}
+
+.peinture-interieure h2 {
+  color: #3e332e;
+  padding: 3rem 0 1rem 0;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "DM Serif Display";
+}
+
+.peinture-interieure p {
+  margin: 1rem;
+  margin-right: 7rem;
+  font-family: "League Spartan";
+  color: #582d1d;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.deuxiemeparagraphe {
+  margin-bottom: 1rem;
+}
+
+/********************** EXTERIEURE **********************/
+
+#exterieure h1 {
+  color: #3e332e;
+  padding: 3rem 0 1rem 0;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "DM Serif Display";
+}
+
+.peinture-exterieure {
+  display: flex;
+  align-items: center;
+}
+
+.peinture-exterieure img {
+  width: 46%;
+  margin: 3rem;
+  margin-left: 7rem;
+  border-radius: 0.5rem;
+}
+
+.peinture-exterieure h2 {
+  color: #3e332e;
+  padding: 3rem 0 1rem 0;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "DM Serif Display";
+}
+
+.peinture-exterieure p {
+  margin: 1rem;
+  margin-right: 7rem;
+  font-family: "League Spartan";
+  color: #582d1d;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.peinture-exterieure.deuxiemeparagraphe {
+  margin-bottom: 1rem;
+}
+
+/************************ REVETEMNT ********************/
+
+#revetement {
+  background-color: #f0e4d9;
+}
+
+#revetement h1 {
+  color: #3e332e;
+  padding: 3rem 0 1rem 0;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "DM Serif Display";
+}
+
+.revetement-sol {
+  display: flex;
+  align-items: center;
+}
+
+.revetement-sol img {
+  width: 46%;
+  margin: 3rem;
+  margin-right: 7rem;
+  border-radius: 0.5rem;
+}
+
+.revetement-sol h2 {
+  color: #3e332e;
+  padding: 3rem 0 1rem 0;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "DM Serif Display";
+}
+
+.revetement-sol p {
+  margin: 1rem;
+  margin-left: 7rem;
+  font-family: "League Spartan";
+  color: #582d1d;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+.revetement-sol.deuxiemeparagraphe {
+  margin-bottom: 1rem;
+}
+
+/********************* PLATERIE ********************/
+
+#platerie h1 {
+  color: #3e332e;
+  padding: 3rem 0 1rem 0;
+  text-align: center;
+  font-size: 3rem;
+  font-family: "DM Serif Display";
+}
+
+.platerie-iso {
+  display: flex;
+  align-items: center;
+}
+
+.platerie-iso img {
+  width: 46%;
+  margin: 3rem;
+  margin-left: 7rem;
+  border-radius: 0.5rem;
+}
+
+.platerie-iso h2 {
+  color: #3e332e;
+  padding: 3rem 0 1rem 0;
+  text-align: center;
+  font-size: 2.5rem;
+  font-family: "DM Serif Display";
+}
+
+.platerie-iso p {
+  margin: 1rem;
+  margin-right: 7rem;
+  font-family: "League Spartan";
+  color: #582d1d;
+  font-size: 1.5rem;
+  text-align: justify;
+}
+
+#platerie h3 {
+  color: #3e332e;
+  padding: 3rem 0 1rem 0;
+  text-align: center;
+  font-size: 1.5rem;
+  font-family: "DM Serif Display";
+}
+
+.platerie-iso .deuxiemeparagraphe {
+  margin-bottom: 1rem;
+}
+
+.platerie-iso .troisiemeparagraphe {
+  margin-bottom: 1rem;
+}
+
+/****************** CONTACT ********************/
+
+#contact {
+  padding: 60px 0;
+}
+
+#contact h1 {
+  text-align: center;
+  margin-bottom: 40px;
+  color: #333;
+}
+
+/* Styles pour les coordonnées */
+#contactez {
+  padding: 20px;
+}
+
+#contactez h2 {
+  margin-bottom: 20px;
+  color: #333;
+  font-size: 22px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+#contactez h2:after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 50px;
+  height: 3px;
+  background-color: #582d1d;
+}
+
+#contactez address {
+  margin-bottom: 30px;
+}
+
+#contactez address p {
+  margin-bottom: 15px;
+  display: flex;
+  align-items: center;
+  font-size: 16px;
+}
+
+address .fa-solid {
+  margin-right: 15px;
+  font-size: 20px;
+  width: 25px;
+  text-align: center;
+}
+
+#contactez iframe {
+  width: 100%;
+  height: 350px;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Styles pour le formulaire */
+#formulaire {
+  padding: 20px;
+  background-color: #f9f9f9;
+  border-radius: 10px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#formulaire h1 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+  border-bottom: 2px solid #ddd;
+  padding-bottom: 10px;
+}
+
+#formulaire h1 p {
+  font-size: 14px;
+  color: #666;
+  font-weight: normal;
+  margin-top: 5px;
+}
+
+#formulaire form {
+  display: flex;
+  flex-direction: column;
+}
+
+#formulaire .form-group {
+  margin-bottom: 15px;
+}
+
+#formulaire label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+  color: #444;
+}
+
+#formulaire input[type="text"],
+#formulaire input[type="email"],
+#formulaire input[type="tel"],
+#formulaire textarea {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  width: 100%;
+  transition: border-color 0.3s, box-shadow 0.3s;
+  font-size: 16px;
+}
+
+#formulaire input[type="text"]:focus, /* cibler un élément lorsque sélectionné avec clavier ou souris*/
+#formulaire input[type="email"]:focus,
+#formulaire input[type="tel"]:focus,
+#formulaire textarea:focus {
+  border-color: #582d1d;
+  outline: none;
+  box-shadow: 0 0 5px rgba(114, 30, 4, 0.3);
+}
+
+#formulaire .checkbox-container {
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: 20px;
+}
+
+#formulaire input[type="checkbox"] {
+  margin-right: 10px;
+  margin-top: 5px;
+}
+
+#formulaire .checkbox-text {
+  font-size: 14px;
+  color: #666;
+  font-weight: normal;
+}
+
+#formulaire .btn-submit {
+  background-color: #582d1d;
+  color: #f0e4d9;
+  border: none;
+  padding: 12px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s;
+  align-self: flex-start;
+  font-size: 16px;
+}
+
+#formulaire .btn-submit:hover {
+  background-color: #582d1d;
+}
+
+/* Responsive pour petits écrans */
+@media (max-width: 768px) {
+  #formulaire,
+  #contactez {
+    margin-bottom: 30px;
+  }
+
+  #contactez iframe {
+    height: 300px;
+  }
+}
+
+/* Footer */
+footer {
+  background-color: #582d1d;
+  color: #f0e4d9;
+  padding: 50px 0 20px;
+}
+
+footer h3 {
+  font-size: 18px;
+  margin-bottom: 20px;
+  position: relative;
+  padding-bottom: 10px;
+}
+
+footer h3:after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 30px;
+  height: 2px;
+  background-color: #f0e4d9;
+}
+
+footer p {
+  margin-bottom: 10px;
+}
+
+footer i {
+  margin-right: 10px;
+  color: #f0e4d9;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+footer ul li {
+  margin-bottom: 10px;
+}
+
+footer ul li a {
+  color: #f0e4d9;
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+footer ul li a:hover {
+  color: #f0e4d9;
+  border-bottom: 0.1rem solid #f0e4d9;
+}
+
+.copyright {
+  margin-top: 30px;
+  padding-top: 20px;
+  border-top: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: center;
+  font-size: 14px;
+}
+
+/* RÈGLES RESPONSIVES - Ajoutées sans modifier le code original */
+@media (max-width: 1400px) {
+  #accueil p {
+    margin: 1.4rem 10rem;
+  }
+}
+
+@media (max-width: 1200px) {
+  #accueil p {
+    margin: 1.4rem 5rem;
+  }
+
+  .peinture-interieure img {
+    margin-left: 3rem;
+  }
+
+  .peinture-interieure p {
+    margin-right: 3rem;
+  }
+
+  .peinture-exterieure img {
+    margin-left: 3rem;
+  }
+
+  .peinture-exterieure p {
+    margin-right: 3rem;
+  }
+
+  .revetement-sol img {
+    margin-right: 3rem;
+  }
+
+  .revetement-sol p {
+    margin-left: 3rem;
+  }
+
+  .platerie-iso img {
+    margin-left: 3rem;
+  }
+
+  .platerie-iso p {
+    margin-right: 3rem;
+  }
+}
+
+@media (max-width: 992px) {
+  nav a {
+    font-size: 1.5rem;
+  }
+
+  #accueil {
+    height: auto;
+    padding-bottom: 2rem;
+  }
+
+  #accueil p {
+    margin: 1.4rem 2rem;
+  }
+
+  .peinture-interieure,
+  .peinture-exterieure,
+  .revetement-sol,
+  .platerie-iso {
+    flex-direction: column;
+  }
+
+  .peinture-interieure img,
+  .peinture-exterieure img,
+  .revetement-sol img,
+  .platerie-iso img {
+    width: 80%;
+    margin: 2rem auto;
+  }
+
+  .peinture-interieure p,
+  .peinture-exterieure p {
+    margin: 0 2rem 2rem 2rem;
+  }
+
+  .revetement-sol p,
+  .platerie-iso p {
+    margin: 0 2rem 2rem 2rem;
+  }
+}
+
+@media (max-width: 768px) {
+  nav ul {
+    padding: 0;
+    text-align: center;
+  }
+
+  nav li {
+    margin: 1rem 0.5rem;
+  }
+
+  nav a {
+    font-size: 1.3rem;
+  }
+
+  #accueil h1 {
+    font-size: 2rem;
+    padding: 2rem 0.5rem 1rem 0.5rem;
+  }
+
+  #accueil p {
+    margin: 1.4rem 1rem;
+    font-size: 1.1rem;
+  }
+
+  #interieur h1,
+  #exterieure h1,
+  #revetement h1,
+  #platerie h1 {
+    font-size: 2.5rem;
+  }
+
+  .peinture-interieure h2,
+  .peinture-exterieure h2,
+  .revetement-sol h2,
+  .platerie-iso h2 {
+    font-size: 2rem;
+    padding: 1rem 0;
+  }
+
+  .peinture-interieure img,
+  .peinture-exterieure img,
+  .revetement-sol img,
+  .platerie-iso img {
+    width: 90%;
+  }
+
+  .peinture-interieure p,
+  .peinture-exterieure p,
+  .revetement-sol p,
+  .platerie-iso p {
+    font-size: 1.2rem;
+  }
+
+  #platerie h3 {
+    font-size: 1.3rem;
+    padding: 1.5rem 0 0.5rem 0;
+  }
+}
+
+@media (max-width: 576px) {
+  nav li {
+    margin: 0.7rem 0.3rem;
+  }
+
+  nav a {
+    font-size: 1.1rem;
+  }
+
+  #accueil h1 {
+    font-size: 1.8rem;
+  }
+
+  #accueil p {
+    font-size: 1rem;
+  }
+
+  #interieur h1,
+  #exterieure h1,
+  #revetement h1,
+  #platerie h1 {
+    font-size: 2rem;
+    padding: 2rem 0 0.5rem 0;
+  }
+
+  .peinture-interieure h2,
+  .peinture-exterieure h2,
+  .revetement-sol h2,
+  .platerie-iso h2 {
+    font-size: 1.7rem;
+  }
+
+  .peinture-interieure p,
+  .peinture-exterieure p,
+  .revetement-sol p,
+  .platerie-iso p {
+    font-size: 1.1rem;
+    margin: 0 1rem 1.5rem 1rem;
+  }
+
+  #platerie h3 {
+    font-size: 1.2rem;
+  }
+
+  #contactez h2,
+  #formulaire h1 {
+    font-size: 1.5rem;
+  }
+
+  #formulaire .checkbox-text {
+    font-size: 12px;
+  }
+
+  footer .col-md-4 {
+    margin-bottom: 2rem;
+  }
+}
+
+@media (max-width: 480px) {
+  nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  nav li {
+    margin: 0.5rem 0;
+  }
+
+  #accueil h1 {
+    font-size: 1.5rem;
+  }
+
+  #accueil p {
+    font-size: 0.9rem;
+  }
+
+  #accueil button {
+    width: 10rem;
+  }
+
+  .peinture-interieure img,
+  .peinture-exterieure img,
+  .revetement-sol img,
+  .platerie-iso img {
+    width: 95%;
+    margin: 1rem auto;
+  }
+
+  .peinture-interieure h2,
+  .peinture-exterieure h2,
+  .revetement-sol h2,
+  .platerie-iso h2 {
+    font-size: 1.5rem;
+  }
+
+  .peinture-interieure p,
+  .peinture-exterieure p,
+  .revetement-sol p,
+  .platerie-iso p {
+    font-size: 1rem;
+  }
+
+  #platerie h3 {
+    font-size: 1.1rem;
+  }
+
+  #contactez iframe {
+    height: 250px;
+  }
+}
+
+footer a {
+  color: #f0e4d9;
+}
+
+/********* PAGES LEGALES *********/
+.navbar {
+  background-color: #f0e4d9;
+  padding: 1rem 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  z-index: 1000;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.nav-content {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 2rem;
+}
+
+.logo {
+  font-family: "DM Serif Display", serif;
+  font-size: 2rem;
+  color: #3e332e;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.legal-page {
+  min-height: 100vh;
+  padding-top: 100px;
+  padding-bottom: 50px;
+  background-color: #ffffff;
+}
+
+.legal-container {
+  max-width: 900px;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #f0e4d9;
+  border-radius: 15px;
+  padding: 3rem;
+  box-shadow: 0 10px 30px rgba(88, 45, 29, 0.1);
+  border: 2px solid rgba(88, 45, 29, 0.1);
+}
+
+.legal-header {
+  text-align: center;
+  margin-bottom: 3rem;
+  border-bottom: 3px solid #582d1d;
+  padding-bottom: 2rem;
+}
+
+.legal-header h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 3rem;
+  font-weight: 700;
+  color: #3e332e;
+  margin-bottom: 1rem;
+}
+
+.legal-subtitle {
+  font-family: "League Spartan", sans-serif;
+  font-size: 1.2rem;
+  color: #582d1d;
+  max-width: 600px;
+  margin: 0 auto;
+  line-height: 1.6;
+  font-weight: 500;
+}
+
+.legal-content {
+  text-align: left;
+}
+
+.legal-section {
+  margin-bottom: 2.5rem;
+  background-color: #ffffff;
+  padding: 2rem;
+  border-radius: 10px;
+  box-shadow: 0 4px 15px rgba(88, 45, 29, 0.08);
+  border-left: 4px solid #582d1d;
+}
+
+.legal-section h2 {
+  font-family: "DM Serif Display", serif;
+  font-size: 1.8rem;
+  color: #582d1d;
+  margin-bottom: 1.5rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #f0e4d9;
+}
+
+.legal-section p {
+  font-family: "League Spartan", sans-serif;
+  color: #3e332e;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+  font-size: 16px;
+}
+
+.legal-section p strong {
+  color: #582d1d;
+  font-weight: 600;
+}
+
+.legal-section a {
+  color: #582d1d;
+  text-decoration: underline;
+  transition: color 0.3s ease;
+}
+
+.legal-section a:hover {
+  color: #3e332e;
+}
+
+/* Responsivité */
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.8rem 0;
+  }
+
+  .nav-content {
+    padding: 0 1rem;
+  }
+
+  .logo {
+    font-size: 1.5rem;
+  }
+
+  .legal-page {
+    padding-top: 80px;
+  }
+
+  .legal-container {
+    width: 95%;
+    padding: 2rem;
+  }
+
+  .legal-header h1 {
+    font-size: 2.2rem;
+  }
+
+  .legal-subtitle {
+    font-size: 1rem;
+  }
+
+  .legal-section {
+    padding: 1.5rem;
+  }
+
+  .legal-section h2 {
+    font-size: 1.5rem;
+  }
+
+  .legal-section p {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 480px) {
+  .legal-container {
+    padding: 1.5rem;
+  }
+
+  .legal-header {
+    padding-bottom: 1.5rem;
+  }
+
+  .legal-header h1 {
+    font-size: 1.8rem;
+  }
+
+  .legal-subtitle {
+    font-size: 0.9rem;
+  }
+
+  .legal-section {
+    padding: 1rem;
+    margin-bottom: 1.5rem;
+  }
+
+  .legal-section h2 {
+    font-size: 1.3rem;
+    margin-bottom: 1rem;
+  }
+
+  .legal-section p {
+    font-size: 14px;
+  }
+}
+
+footer p {
+  text-align: center;
+}

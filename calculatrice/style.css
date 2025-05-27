@@ -1,0 +1,36 @@
+body {
+	font-family: Tahoma, sans-serif;
+	font-size: 1rem;
+	color: #333;
+}
+
+h1 {
+	text-align: center;
+}
+
+form {
+	width: 90%;
+	max-width: 400px;
+	margin: 0 auto;
+}
+
+.row {
+	margin: 1em 0;
+}
+
+input[type="number"] {
+	min-width: 200px;
+	padding: 5px;
+}
+
+button {
+	width: 100%;
+	padding: 10px 20px;
+	border: 0;
+	background-color: red;
+	color: white;
+}
+
+#result span {
+	color: blue;
+}
